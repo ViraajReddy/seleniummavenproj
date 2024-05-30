@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" parallel="tests" name="Failed suite [TestSUITE]" guice-stage="DEVELOPMENT">
+  <test thread-count="1" parallel="tests" name="Sample TEST(failed)">
+    <classes>
+      <class name="seleniummavenproj.TestCases">
+        <methods>
+          <include name="defaultthings"/>
+          <include name="firsttest"/>
+          <include name="closemethod"/>
+        </methods>
+      </class> <!-- seleniummavenproj.TestCases -->
+    </classes>
+  </test> <!-- Sample TEST(failed) -->
+</suite> <!-- Failed suite [TestSUITE] -->
